@@ -1,0 +1,360 @@
+
+@media screen and (max-width : 1150px) {
+    * {
+        padding : 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-size : 14px;
+    }
+    .newsContent {
+        display : block;
+        width : 100%;
+    }
+    .newsImg {
+        width: 50%;
+        padding : 0 5%;
+        height: auto;
+        float : left;
+        margin-bottom: 1rem;
+
+    }
+    .gallery {
+        width : 500px;
+        margin : 0 auto;
+    }
+    .listImg {
+        width : 100%;
+    }
+    .listImg .image{
+        flex: 0 0 500px;
+        height : 300px;
+    }
+    .listImg img {
+        width : 500px;
+        height : 250px;
+    }
+    .animation {
+        position : relative;
+        width : 100%;
+        height : 500px;
+        display : flex;
+        justify-content: center;
+        align-items: center;
+        margin : 0;
+        overflow: hidden;
+    }
+    #bg {
+        height : 500px;
+    }
+    .animation img {
+        position: absolute;
+        width : 100%;
+        height : 600px;
+    }
+    #moon {
+        top : 20%;
+    }
+    #mountain {
+        bottom : 0 !important;
+    }
+    #text {
+        position : relative;
+        color : white;
+        z-index: 1;
+        font-size : 2rem;
+        margin-top: 5rem;
+        padding :  0 10px;
+        text-align: center;
+    }
+}
+@media screen and (max-width : 767px) {
+    * {
+        font-size : 12px; 
+        max-width: 100%;
+    }
+    :root {
+        --tim : #321d5e;
+        --tieudephu : #52407b;
+    }
+    .tieude h1 {
+        width : 60%;
+        margin : 0 auto;
+        font-size: 1.2rem;
+        display : block;
+        padding : 5px;
+    }
+
+/* <----------THANH MENU-----------------------> */
+    #sidebarMenu {
+        position: fixed;
+        right: -100%; 
+        top: 48px;
+        height: 50%;
+        width: 50%;
+        flex-direction: column;
+        transition: left 0.3s ease;
+        z-index: 9999;
+        font-size: 1rem;
+    }
+    .mucLucs ul.mucLucs {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .mucLucs ul.mucLucs li {
+        width: 100%;
+    }
+    .mucLucs ul.mucLucs li a {
+        display: block;
+        padding: 8px;
+        margin-left: 15px;
+    }
+    .mucLuc li {
+        margin : 10px;
+    }
+    .mucLuc > li > a {
+        border-bottom : 1px solid lightgray;
+        margin : 0;
+        padding : 10px;
+        font-size: 0.8rem;
+        width : 100%;
+    }
+    .logoTruong {
+        display: none; 
+    }
+    #sidebarMenu.show {
+        right: 0;
+    }
+    #closeMenu {
+        display: block;
+        padding: 5px 10px;
+        cursor: pointer;
+        color: white;
+        text-align: right;
+        bottom : 1rem;
+    }
+    .menuDt {
+        z-index : 9999;
+        background-color : white;
+        display : flex;
+        margin : 0;
+        width : 100%;
+    }
+    .menuDt img {
+        width : 20rem;
+    }
+    #menuBtn {
+        display : flex;
+        width : 3rem;
+        height : 3rem;
+        padding : 1rem;
+        background-color: var(--tim);
+        align-items: center;
+        z-index : 1000;
+        cursor: pointer;
+        margin : 0.5rem 1rem;
+        color : white;
+        margin-left : auto;
+    }
+    #gotoTop {
+        right : 10px;
+        bottom : 20px;
+        width : 30px;
+        height : 30px;
+        font-size: 20px;
+        font-weight: 500;
+        padding : 5px;
+    }
+/*---------------TIEU DE--------------------------*/
+    .animation {
+        position : relative;
+        width : 100%;
+        height : 350px;
+        display : flex;
+        justify-content: center;
+        align-items: center;
+        margin : 0;
+        overflow: hidden;
+    }
+    #bg {
+        height : 350px;
+    }
+    .animation img {
+        position: absolute;
+        width : 100%;
+        height : 350px;
+    }
+    #moon {
+        width : 80%;
+        height : 200px;
+        top : 35%;
+    }
+    #mountain {
+        bottom : 0 !important;
+    }
+    #text {
+        position : relative;
+        color : white;
+        z-index: 1;
+        font-size : 1.5rem;
+        margin-top: 5rem;
+    }
+/* <----------FOOTER----------------------> */
+    .footer {
+        width: 100%;
+        padding: 10px;
+    }
+    .phanDau {
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem 0;
+    }
+    .logoTruongFooter {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    #truongFooter {
+        width: 70%;
+    }
+    .iconLienHe {
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .iconLienHe ul {
+        justify-content: center;
+        padding: 0;
+    }
+    .iconLienHe ul li {
+        font-size: 20px; 
+    }
+    .phanGiua {
+        flex-direction: column;
+        margin: 1rem 0;
+    }
+    .noidungFooters {
+        width: 100%; 
+        margin-bottom: 1.5rem;
+    }
+    .noidungFooters:first-child, .noidungFooters:nth-child(2){
+        width: 100%;
+    }
+    .noiDungFooter > div {
+        padding : 0px;
+        margin : 0;
+    }
+    li.noiDungFooter {
+        margin : 0;
+    }
+    .tieuDeNDF {
+        text-align: center;
+        font-size: 1rem;
+    }
+    .thongtinNDF li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .tenNoiDungFooters {
+        justify-content: center;
+    }
+    .noiDungNhoFooter {
+        text-align: center;
+    }
+    .veChungToi {
+        display : flex;
+        gap : 5px;
+    }
+    .veChungToi > li > a {
+        display : block;
+    }
+    .phanCuoi > span {
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+    .tenNoiDungFooter {
+        padding : 10px;
+        margin : 0;
+    }
+    .tenNoiDungFooters i {
+        padding-top : 0;
+    }
+
+/* -----------------TIN NOI BAT-------------------------------------- */
+    h1.tieude {
+        font-size: 1.5rem;
+        padding : 10px;
+        margin : 0 auto 0.5rem;
+        width : 60%;
+        line-height: 2rem;
+    }
+    .gallery {
+        width : 300px;
+        margin : 0 auto;
+    }
+    .listImg {
+        width : 100%;
+    }
+    .listImg .image{
+        flex: 0 0 300px;
+        height : 200px;
+    }
+    .listImg img {
+        width : 300px;
+        height : 150px;
+    }
+    .imgText {
+        font-size : 0.8rem;
+        font-weight: bold;
+        padding : 15px;
+    }
+    .btn {
+        padding : 0px;
+        font-size : 0.5rem;
+    }  
+    .newsContent {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .newsImg {
+        width: 100%;
+        height: auto;
+    }
+    #fullArticle img {
+        width: 80%;
+        height: auto;
+        margin : 0 auto;
+        display: block;
+    }
+    .newsItem h3 {
+        font-size: 1.3rem;
+        padding-bottom: 2rem;
+    }
+    .newsItem p {
+        font-size: 0.95rem;
+    }
+    #fullArticle {
+        margin-top : 2rem;
+    }
+    #fullArticle h1 {
+        font-size: 1.4rem;
+    }
+    .baiBao {
+        width : 90%;
+        background-color: rgb(238, 232, 223);
+        color : white;
+        margin : 0 auto;
+        padding : 2rem;
+        box-sizing: border-box;
+    }
+    #closeArticle {
+        top: 5rem;
+        right: 25px;
+        padding : 5px 8px;
+    }
+    #articleImg {
+        padding-bottom: 1rem;
+    }
+}

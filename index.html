@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Đại học, Vũ trụ, Công nghệ, tuyển sinh, tin tức">
+    <title>Tin tức tuyển sinh</title>
+    <link rel="stylesheet" href="menuVaFooter.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="img/icon.png">
+    <script src = "js/jquery-3.7.1.min.js"></script>
+    <script src = "js/index.js"></script>
+    <script src="https://kit.fontawesome.com/4dfce62b7e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-----------------Thanh menu-------------------------------------->
+    <div class="menuDt sticky">
+        <img src = "img/logoTruong.png"/>
+        <div id = "menuBtn"><i class="fa-solid fa-bars"></i></div>
+    </div>
+    <header class = "thanhmenu sticky mucLucs flex">
+            <div class="logoTruong">
+                <img src="./img/logoTruong.png" alt="Logo" id="logoTruong">
+            </div>
+            <nav class="mucLucs" id="sidebarMenu">
+                <ul class="mucLucs noList flex">
+                    <li><a href="https://thao225.github.io/SAT_TrangChu/">Trang chủ</a></li>
+                    <li class="sub">
+                        <a href="https://thao225.github.io/SAT_ThongTinTuyenSinh/">Thông tin tuyển sinh</a>
+                        <ul class="mucLuc">
+                            <li><a href="https://thao225.github.io/SAT_ThongTinTuyenSinh/#ptXettuyen">Phương thức xét tuyển</a></li>
+                            <li><a href="https://thao225.github.io/SAT_ThongTinTuyenSinh/#hocphi">Học phí</a></li>
+                            <li><a href="https://thao225.github.io/SAT_ThongTinTuyenSinh/#miengiam">Chương trình học bổng</a></li>
+                            <li><a href="https://thao225.github.io/SAT_ThongTinTuyenSinh/#hocbong">Chính sách miễn giảm</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub">
+                        <a href="https://thao225.github.io/SAT_GioiThieuTongQuan/">Giới thiệu tổng quan</a>
+                        <ul class="mucLuc">
+                            <li><a href="https://thao225.github.io/SAT_GioiThieuTongQuan/tongQuat/tongQuat.html">Chương trình Chính quy</a></li>
+                            <li><a href="https://thao225.github.io/SAT_GioiThieuTongQuan/tongQuat/tongQuat.html">Chương trình Chất lượng cao</a></li>
+                            <li><a href="https://thao225.github.io/SAT_GioiThieuTongQuan/tongQuat/tongQuat.html">Chương trình liên kết</a></li>
+                            <li><a href="https://thao225.github.io/SAT_GioiThieuTongQuan/tongQuat/tongQuat.html">Chương trình Đào tạo từ xa</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub news">
+                        <a href="#">Tin tức</a>
+                        <ul class="mucLuc">
+                            <li><a href="#thongBao">Thông báo</a></li>
+                            <li><a href="#baoChi">Báo chí</a></li>
+                            <li><a href="#suKien">Sự kiện</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub">
+                        <a href="https://thao225.github.io/SAT_TrangChu/">Tham khảo</a>
+                        <ul class="mucLuc">
+                            <li><a href="https://thao225.github.io/SAT_TrangChu/">Quy trình nộp hồ sơ trực tuyến</a></li>
+                            <li><a href="https://thao225.github.io/SAT_TrangChu/">Quy chế - Quy định tuyển sinh</a></li>
+                            <li><a href="https://thao225.github.io/SAT_ThongTinTuyenSinh/#cauHoiThuongGap">Câu hỏi thường gặp</a></li>
+                            <li><a href="https://thao225.github.io/SAT_TrangChu/#khamPhaTruong">Khám phá trường</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#footer">Liên hệ</a></li>
+                </ul>
+                <div id = "closeMenu" class = "flex center"><span>x</span></div>
+            </nav>
+    </header>
+    <body id = "news">
+        <div id = "gotoTop">^</div>
+        <section class = "animation">
+            <img src = "img/sky.jpg" id = "bg">
+            <img src = "img/moon.png" id = "moon">
+            <img src = "img/mountain.png" id = "mountain">
+            <h2 id="text">TRANG TIN TỨC ĐẠI HỌC VŨ TRỤ VÀ CÔNG NGHỆ</h2>
+        </section>
+        <section id = "tinNoiBat">
+            <h1  class = "tieude">Thông tin nổi bật</h1>
+            <div class="gallery">
+                <div class="listImg flex">
+                    <a href = "https://thao225.github.io/SAT_ThongTinTuyenSinh/" target = "_blank" class = "image">
+                        <img src="img/noibat1.png">
+                        <div class="imgText">Thông báo tuyển sinh bổ sung đợt 2 phương thức xét điểm THPT.</div>
+                    </a>          
+                    <a href = "https://dantri.com.vn/khoa-hoc-cong-nghe/nghien-cuu-moi-vu-tru-co-the-ngung-gian-no-rat-som-va-den-ngay-tan-the-20220507062418329.htm" target="_blank" class="image">
+                        <img src="img/noibat2.png">
+                        <div class="imgText">Nghiên cứu mới: Vũ trụ có thể ngừng giãn nở rất sớm và đến ngày tận thế</div>
+                    </a>
+                    <a href = "https://dantri.com.vn/khoa-hoc-cong-nghe/lan-dau-tien-khoa-hoc-phat-hien-dien-truong-vo-hinh-quanh-trai-dat-20240903020602012.htm" target="_blank" class="image">
+                        <img src="img/noibat3.png">
+                        <div class="imgText">Lần đầu tiên khoa học phát hiện điện trường vô hình quanh Trái Đất.</div>
+                    </a>               
+                    <a href = "https://dantri.com.vn/khoa-hoc-cong-nghe/phi-hanh-gia-hoang-mang-voi-tieng-dong-la-cua-tau-vu-tru-boeing-starliner-20240903080405696.htm" target="_blank" class="image">
+                        <img src="img/noibat4.png">
+                        <div class="imgText">Phi hành gia hoang mang với tiếng động lạ của tàu vũ trụ Boeing Starliner</div>
+                    </a>
+                </div>
+                <div class="btnGT">
+                    <div class="prev btn"><i class="fa-solid fa-chevron-left"></i></div>
+                    <div class="next btn"><i class="fa-solid fa-chevron-right"></i></div>
+                </div>
+            </div>
+        </section>
+        <section id="thongBao" class="newsSection">
+            <h1  class = "tieude">Thông báo</h1>
+            <div class = "newsItem">
+                <a class = "newsContent" href = "thongbao">
+                   <img src="img/thongbao1.png" class="newsImg"/>
+                   <div class = "mota">
+                        <h3>Thông Báo Về Hội Thảo “Khám Phá Vũ Trụ: Công Nghệ và Ứng Dụng”</h3>
+                        <p>Nhằm cập nhật kiến thức và tạo cơ hội giao lưu học hỏi, Trường Đại học Vũ trụ và Công nghệ tổ chức hội thảo với chủ đề “Khám Phá Vũ Trụ: 
+                        Công Nghệ và Ứng Dụng” vào ngày 20/8/2024. Hội thảo có sự tham gia của các chuyên gia hàng đầu trong lĩnh vực công nghệ vũ trụ, đến từ NASA, ESA, 
+                        và các tổ chức nghiên cứu uy tín khác.</p> 
+                    </div>
+                    <div class = "fullArticle">
+                        <p><strong>Ngày diễn ra:</strong> 20/8/2024</p>
+                        <p><strong>Địa điểm:</strong> Trường Đại học Vũ trụ và Công nghệ</p>
+                        <p>Nhằm cập nhật kiến thức và tạo cơ hội giao lưu học hỏi giữa các nhà nghiên cứu, giảng viên, sinh viên và các chuyên gia đầu ngành, 
+                            Trường Đại học Vũ trụ và Công nghệ trân trọng thông báo về hội thảo khoa học với chủ đề "Khám Phá Vũ Trụ: Công Nghệ và Ứng Dụng". Hội thảo sẽ diễn ra vào ngày 20 tháng 10 năm 2024, tại hội trường lớn của trường.</p>
+                        <h2>Nội dung chính của hội thảo:</h2>
+                        <ul class = "noList">
+                            <li><strong>Công Nghệ Vũ Trụ và Ứng Dụng Thực Tiễn</strong>
+                                <ul class = "noList plusList">
+                                    <li>Thảo luận về những tiến bộ mới nhất trong công nghệ vũ trụ, bao gồm thiết kế và chế tạo vệ tinh, công nghệ phóng tên lửa, và hệ thống điều khiển không gian.</li>
+                                    <li>Ứng dụng công nghệ vũ trụ trong các lĩnh vực như viễn thám, khí tượng học, và viễn thông.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Khám Phá Vũ Trụ và Những Thách Thức Mới</strong>
+                                <ul class = "noList plusList">
+                                    <li>Cập nhật về các sứ mệnh thám hiểm không gian đang diễn ra, bao gồm việc nghiên cứu sao Hỏa, Mặt Trăng, và các hành tinh khác trong Hệ Mặt Trời.</li>
+                                    <li>Thảo luận về những thách thức trong việc đưa con người lên sinh sống và làm việc lâu dài trên các thiên thể ngoài Trái Đất.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Trí Tuệ Nhân Tạo và Dữ Liệu Lớn trong Nghiên Cứu Vũ Trụ</strong>
+                                <ul class = "noList plusList">
+                                    <li>Ứng dụng trí tuệ nhân tạo (AI) trong việc phân tích dữ liệu từ các sứ mệnh vũ trụ.</li>
+                                    <li>Sử dụng dữ liệu lớn để dự đoán và quản lý các hiện tượng trong không gian.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <h2>Diễn giả chính:</h2>
+                        <p>Hội thảo sẽ có sự góp mặt của các chuyên gia hàng đầu trong lĩnh vực công nghệ vũ trụ, đến từ NASA, ESA (Cơ quan Vũ trụ châu Âu), và các tổ chức 
+                            nghiên cứu uy tín khác. Các diễn giả sẽ chia sẻ những hiểu biết sâu sắc về xu hướng phát triển của công nghệ vũ trụ trong tương lai gần.</p>
+                        
+                        <h2>Đăng ký tham dự:</h2>
+                        <p>Sinh viên, giảng viên, và các nhà nghiên cứu quan tâm có thể đăng ký tham dự qua trang web của trường. Hạn chót đăng ký là ngày 15/10/2024. Số lượng chỗ ngồi có hạn, vì vậy hãy đăng ký sớm để đảm bảo chỗ ngồi.</p>
+                        
+                        <h2>Thông tin liên hệ:</h2>
+                        <ul class = "noList plusList">
+                            <li>Số điện thoại: 0123-456-789</li>
+                            <li>Địa chỉ: Trường Đại học Vũ trụ và Công Nghệ, đường Khám Phá, quận Vũ Trụ, thành phố Không Gian</li>
+                        </ul>
+                        <p>Hãy cùng nhau tham gia và khám phá những giới hạn mới của vũ trụ thông qua các công nghệ tiên tiến và những cuộc thảo luận đầy sáng tạo tại hội thảo lần này!</p>
+                    </div>
+                </a>
+            </div>
+            <div class="newsItem">
+                <a class="newsContent" href = "thongbao">
+                    <img src="img/thongbao2.png" class="newsImg"/>
+                    <div class = "mota">
+                         <h3>Thông Báo Về Chương Trình Học Bổng Nghiên Cứu Vũ Trụ</h3>
+                         <p>Trường Đại học Vũ trụ và Công nghệ hân hạnh giới thiệu Chương trình Học bổng Nghiên cứu Vũ trụ Toàn cầu 2024, 
+                            hỗ trợ sinh viên và nghiên cứu sinh theo đuổi các dự án nghiên cứu trong các lĩnh vực như thiết kế tàu vũ trụ, viễn thám, 
+                            và thám hiểm không gian. Học bổng sẽ chi trả toàn bộ học phí và hỗ trợ chi phí nghiên cứu.</p> 
+                    </div>
+                    <div class = "fullArticle">
+                        <p><strong>Ngày diễn ra:</strong> 26/8/2024</p>
+                        <p><strong>Địa điểm:</strong> Trường Đại học Vũ trụ và Công nghệ</p>
+                        
+                        <p>Trường Đại học Vũ trụ và Công nghệ hân hạnh giới thiệu Chương trình Học bổng Nghiên cứu Vũ trụ Toàn cầu 2024, 
+                            hỗ trợ sinh viên và nghiên cứu sinh theo đuổi các dự án nghiên cứu trong các lĩnh vực như thiết kế tàu vũ trụ, viễn thám, 
+                            và thám hiểm không gian. Học bổng sẽ chi trả toàn bộ học phí và hỗ trợ chi phí nghiên cứu.</p>
+                        
+                        <h2>Chi Tiết Chương Trình Học Bổng</h2>
+                        <ul class = "noList">
+                            <li><strong>Đối tượng nhận học bổng:</strong>
+                                <ul class = "noList plusList">
+                                    <li>Sinh viên và nghiên cứu sinh đang theo học tại các cơ sở giáo dục đại học hoặc nghiên cứu trong các lĩnh vực liên quan đến vũ trụ.</li>
+                                    <li>Nghiên cứu trong các lĩnh vực như viễn thám, khí tượng học, và viễn thông.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Phạm vi hỗ trợ:</strong>
+                                <ul class = "noList plusList">
+                                    <li>Toàn bộ học phí và chi phí nghiên cứu.</li>
+                                    <li>Trung bình 10tr/nghiên cứu.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Thông tin chi tiết :</strong>
+                                <ul class = "noList plusList">
+                                    <li>Yêu cầu ứng tuyển: Các ứng viên cần nộp đơn xin học bổng, cùng với kế hoạch nghiên cứu chi tiết và thư giới thiệu từ giáo viên hướng dẫn hoặc chuyên gia trong lĩnh vực.</li>
+                                    <li>Hạn chót nộp đơn: 30/9/2024 </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <h2>Diễn giả chính:</h2>
+                        <p>Hội thảo sẽ có sự góp mặt của các chuyên gia hàng đầu trong lĩnh vực công nghệ vũ trụ, đến từ NASA, ESA (Cơ quan Vũ trụ châu Âu), và các tổ chức 
+                            nghiên cứu uy tín khác. Các diễn giả sẽ chia sẻ những hiểu biết sâu sắc về xu hướng phát triển của công nghệ vũ trụ trong tương lai gần.</p>
+                        
+                        <h2>Đăng ký tham dự:</h2>
+                        <p>Sinh viên, giảng viên có thể đăng ký tham dự qua trang web của trường.Số lượng chỗ ngồi có hạn, vì vậy hãy đăng ký sớm để đảm bảo chỗ ngồi.</p>
+                        
+                        <h2>Thông tin liên hệ:</h2>
+                        <ul class = "noList plusList">
+                            <li>Số điện thoại: 0123-456-789</li>
+                            <li>Địa chỉ: Trường Đại học Vũ trụ và Công Nghệ, đường Khám Phá, quận Vũ Trụ, thành phố Không Gian</li>
+                        </ul>
+                        <p>Hãy nhanh tay nộp đơn để có cơ hội nhận học bổng và đóng góp vào các dự án nghiên cứu vũ trụ đầy tiềm năng!</p>
+                    </div>                 
+                 </a>
+            </div>
+            <div class="newsItem">
+                <a class="newsContent" href = "thongbao">
+                    <img src="img/thongbao3.png" class="newsImg"/>
+                    <div class="mota">
+                        <h3>Thông Báo Về Hội Thảo “Công Nghệ Sinh Học: Tiến Bộ và Ứng Dụng”</h3>
+                        <p>Nhằm cập nhật kiến thức và tạo cơ hội giao lưu học hỏi, Trường Đại học Khoa học và Công nghệ tổ chức hội thảo với chủ đề “Công Nghệ Sinh Học: 
+                        Tiến Bộ và Ứng Dụng” vào ngày 15/9/2024. Hội thảo có sự tham gia của các chuyên gia hàng đầu trong lĩnh vực công nghệ sinh học, đến từ các tổ chức nghiên cứu uy tín toàn cầu.</p>
+                    </div>
+                    <div class="fullArticle">
+                        <p><strong>Ngày diễn ra:</strong> 15/9/2024</p>
+                        <p><strong>Địa điểm:</strong> Trường Đại học Khoa học và Công nghệ</p>
+                        <p>Nhằm cập nhật kiến thức và tạo cơ hội giao lưu học hỏi giữa các nhà nghiên cứu, giảng viên, sinh viên và các chuyên gia đầu ngành, 
+                            Trường Đại học Khoa học và Công nghệ trân trọng thông báo về hội thảo khoa học với chủ đề "Công Nghệ Sinh Học: Tiến Bộ và Ứng Dụng". Hội thảo sẽ diễn ra vào ngày 15 tháng 9 năm 2024, tại hội trường lớn của trường.</p>
+                        <h2>Nội dung chính của hội thảo:</h2>
+                        <ul class="noList">
+                            <li><strong>Công Nghệ Sinh Học và Ứng Dụng Thực Tiễn</strong>
+                                <ul class="noList plusList">
+                                    <li>Thảo luận về những tiến bộ mới nhất trong công nghệ sinh học, bao gồm kỹ thuật di truyền, sinh học phân tử, và phát triển dược phẩm.</li>
+                                    <li>Ứng dụng công nghệ sinh học trong y học, nông nghiệp, và bảo vệ môi trường.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Thách Thức và Cơ Hội Trong Công Nghệ Sinh Học</strong>
+                                <ul class="noList plusList">
+                                    <li>Phân tích các thách thức về đạo đức và pháp lý trong việc ứng dụng công nghệ sinh học.</li>
+                                    <li>Thảo luận về cơ hội phát triển các giải pháp sinh học sáng tạo để giải quyết các vấn đề toàn cầu.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Trí Tuệ Nhân Tạo và Dữ Liệu Lớn trong Nghiên Cứu Sinh Học</strong>
+                                <ul class="noList plusList">
+                                    <li>Ứng dụng trí tuệ nhân tạo (AI) trong việc phân tích dữ liệu sinh học.</li>
+                                    <li>Sử dụng dữ liệu lớn để phát hiện và phát triển các phương pháp điều trị mới.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <h2>Diễn giả chính:</h2>
+                        <p>Hội thảo sẽ có sự góp mặt của các chuyên gia hàng đầu trong lĩnh vực công nghệ sinh học, đến từ các tổ chức nghiên cứu uy tín trên thế giới. Các diễn giả sẽ chia sẻ những hiểu biết sâu sắc về xu hướng phát triển của công nghệ sinh học trong tương lai gần.</p>
+                        
+                        <h2>Đăng ký tham dự:</h2>
+                        <p>Sinh viên, giảng viên, và các nhà nghiên cứu quan tâm có thể đăng ký tham dự qua trang web của trường. Hạn chót đăng ký là ngày 5/9/2024. Số lượng chỗ ngồi có hạn, vì vậy hãy đăng ký sớm để đảm bảo chỗ ngồi.</p>
+                        
+                        <h2>Thông tin liên hệ:</h2>
+                        <ul class="noList plusList">
+                            <li>Số điện thoại: 0987-654-321</li>
+                            <li>Địa chỉ: Trường Đại học Khoa học và Công nghệ, đường Sáng Tạo, quận Khoa Học, thành phố Tri Thức</li>
+                        </ul>
+                        <p>Hãy cùng nhau tham gia và khám phá những tiến bộ mới nhất trong lĩnh vực công nghệ sinh học tại hội thảo lần này!</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section id="baoChi" class="newsSection">
+            <h1  class = "tieude">Báo chí</h1>
+            <div class="newsItem">
+                <a class="newsContent" href = "baochi">
+                    <img src="img/baochi1.png" class="newsImg"/>
+                    <div class = "mota">
+                         <h3>Khám Phá Hệ Mặt Trời: Sinh Viên Việt Nam Tiếp Cận Công Nghệ Không Gian</h3>
+                         <p>Trường Đại học Vũ trụ và Công nghệ vừa công bố thành công của nhóm sinh viên trong việc phát triển một vệ tinh nhỏ 
+                            nhằm nghiên cứu và thu thập dữ liệu từ các hành tinh trong Hệ Mặt Trời. Dự án này nằm trong khuôn khổ hợp tác quốc tế với 
+                            Cơ quan Vũ trụ Nhật Bản (JAXA). </p> 
+                    </div>
+                    <div class="fullArticle">
+                        <p><strong>Ngày diễn ra:</strong> 24/8/2024</p>
+                        <p><strong>Địa điểm:</strong> Trường Đại học Vũ trụ và Công nghệ</p>
+                        
+                        <p>Trường Đại học Vũ trụ và Công nghệ vừa công bố thành công của nhóm sinh viên trong việc phát triển một vệ tinh nhỏ 
+                            nhằm nghiên cứu và thu thập dữ liệu từ các hành tinh trong Hệ Mặt Trời. Dự án này nằm trong khuôn khổ hợp tác quốc tế với 
+                            Cơ quan Vũ trụ Nhật Bản (JAXA).</p>
+                        
+                        <h2>Chi Tiết Dự Án Vệ Tinh</h2>
+                        <ul class="noList">
+                            <li><strong>Đối tượng tham gia:</strong>
+                                <ul class="noList plusList">
+                                    <li>Sinh viên ngành công nghệ vũ trụ và kỹ thuật không gian tại Trường Đại học Vũ trụ và Công nghệ.</li>
+                                    <li>Nhóm nghiên cứu hợp tác quốc tế với Cơ quan Vũ trụ Nhật Bản (JAXA).</li>
+                                </ul>
+                            </li>
+                            <li><strong>Phạm vi dự án:</strong>
+                                <ul class="noList plusList">
+                                    <li>Phát triển và chế tạo vệ tinh nhỏ để nghiên cứu các hành tinh trong Hệ Mặt Trời.</li>
+                                    <li>Thu thập dữ liệu không gian và gửi về Trái Đất để phân tích.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Thông tin chi tiết:</strong>
+                                <ul class="noList plusList">
+                                    <li>Yêu cầu kỹ thuật: Vệ tinh phải có khả năng thu thập và truyền tải dữ liệu từ xa.</li>
+                                    <li>Thời gian triển khai: Dự kiến vào đầu năm 2025.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <h2>Diễn giả chính:</h2>
+                        <p>Nhóm nghiên cứu sẽ bao gồm các chuyên gia từ Trường Đại học Vũ trụ và Công nghệ cùng với các kỹ sư từ JAXA, 
+                            những người sẽ chia sẻ về quy trình phát triển vệ tinh và ứng dụng công nghệ không gian trong nghiên cứu vũ trụ.</p>
+                        
+                        <h2>Đăng ký tham dự:</h2>
+                        <p>Sinh viên, giảng viên và các nhà nghiên cứu quan tâm có thể đăng ký tham gia thông qua trang web của trường để 
+                            tham dự các buổi thuyết trình và hội thảo về dự án.</p>
+                        
+                        <h2>Thông tin liên hệ:</h2>
+                        <ul class="noList plusList">
+                            <li>Số điện thoại: 0123-456-789</li>
+                            <li>Địa chỉ: Trường Đại học Vũ trụ và Công Nghệ, đường Khám Phá, quận Vũ Trụ, thành phố Không Gian</li>
+                        </ul>
+                        <p>Hãy nhanh tay đăng ký để tìm hiểu thêm về dự án và cơ hội tham gia vào các nghiên cứu không gian đầy tiềm năng!</p>
+                    </div>
+                 </a>
+            </div>
+            <div class="newsItem">
+                <a class="newsContent" href = "baochi">
+                    <img src="img/baochi2.png" class="newsImg"/>
+                    <div class = "mota">
+                         <h3>Kỳ Vọng Và Thách Thức Trong Đào Tạo Nhân Lực Vũ Trụ: Góc Nhìn Từ Trường Đại Học Vũ Trụ và Công Nghệ</h3>
+                         <p>Ngành công nghệ vũ trụ tại Việt Nam đang đối mặt với nhiều thách thức trong việc đào tạo và phát triển nhân lực chất lượng cao. 
+                            Trường Đại học Vũ trụ và Công nghệ đã đưa ra nhiều giải pháp mới, tuy nhiên, việc xây dựng một đội ngũ chuyên gia đủ sức cạnh tranh trên thị trường toàn cầu vẫn là một bài toán khó.</p> 
+                    </div>
+                    <div class="fullArticle">
+                        <p><strong>Ngày diễn ra:</strong> 21/8/2024</p>
+                        <p><strong>Địa điểm:</strong> Trường Đại học Vũ trụ và Công nghệ</p>
+                        
+                        <p>Ngành công nghệ vũ trụ tại Việt Nam đang đối mặt với nhiều thách thức trong việc đào tạo và phát triển nhân lực chất lượng cao. 
+                            Trường Đại học Vũ trụ và Công nghệ đã đưa ra nhiều giải pháp mới, tuy nhiên, việc xây dựng một đội ngũ chuyên gia đủ sức cạnh tranh trên thị trường toàn cầu vẫn là một bài toán khó.</p>
+                        
+                        <h2>Kỳ Vọng Trong Đào Tạo Nhân Lực Vũ Trụ</h2>
+                        <ul class="noList">
+                            <li><strong>Định hướng đào tạo:</strong>
+                                <ul class="noList plusList">
+                                    <li>Phát triển chương trình đào tạo hiện đại và toàn diện, bao gồm các lĩnh vực như công nghệ vệ tinh, hệ thống điều khiển không gian, và nghiên cứu không gian.</li>
+                                    <li>Tăng cường hợp tác với các tổ chức và cơ quan vũ trụ quốc tế để cập nhật kiến thức và kỹ năng cho sinh viên và nghiên cứu sinh.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Chương trình hỗ trợ:</strong>
+                                <ul class="noList plusList">
+                                    <li>Hỗ trợ tài chính và học bổng cho sinh viên xuất sắc và các dự án nghiên cứu tiềm năng.</li>
+                                    <li>Phát triển cơ sở vật chất và trang thiết bị hiện đại phục vụ cho việc đào tạo và nghiên cứu.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Thách thức đối mặt:</strong>
+                                <ul class="noList plusList">
+                                    <li>Khó khăn trong việc thu hút và giữ chân các giảng viên và chuyên gia hàng đầu trong lĩnh vực công nghệ vũ trụ.</li>
+                                    <li>Thiếu nguồn tài chính và đầu tư cho các nghiên cứu và dự án phát triển công nghệ mới.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        
+                        <h2>Giải Pháp Đề Xuất</h2>
+                        <p>Trường Đại học Vũ trụ và Công nghệ đang tích cực triển khai các giải pháp để giải quyết các thách thức này, bao gồm việc mở rộng hợp tác quốc tế, nâng cao chất lượng chương trình đào tạo, và tăng cường hỗ trợ nghiên cứu và phát triển.</p>
+                        
+                        <h2>Thông tin liên hệ:</h2>
+                        <ul class="noList plusList">
+                            <li>Số điện thoại: 0123-456-789</li>
+                            <li>Địa chỉ: Trường Đại học Vũ trụ và Công Nghệ, đường Khám Phá, quận Vũ Trụ, thành phố Không Gian</li>
+                        </ul>
+                        <p>Để tìm hiểu thêm về các chương trình đào tạo và cơ hội trong ngành công nghệ vũ trụ, vui lòng liên hệ với chúng tôi qua thông tin trên.</p>
+                    </div>                    
+                 </a>
+            </div>
+            <div class="newsItem">
+                <a class="newsContent" href="baochi">
+                    <img src="img/baochi3.png" class="newsImg"/>
+                    <div class="mota">
+                        <h3>Đột Phá Trong Nghiên Cứu Khoa Học: Trường Đại Học Vũ Trụ và Công Nghệ Đẩy Mạnh Hợp Tác Quốc Tế</h3>
+                        <p>Với mục tiêu thúc đẩy nghiên cứu khoa học và nâng cao chất lượng đào tạo, Trường Đại học Vũ trụ và Công nghệ đã không ngừng mở rộng hợp tác với các tổ chức và viện nghiên cứu quốc tế. 
+                        Những bước tiến này hứa hẹn sẽ tạo ra những đột phá mới trong công nghệ vũ trụ, nhưng cũng đặt ra nhiều thách thức lớn.</p>
+                    </div>
+                    <div class="fullArticle">
+                        <p><strong>Ngày diễn ra:</strong> 25/9/2024</p>
+                        <p><strong>Địa điểm:</strong> Trường Đại học Vũ trụ và Công nghệ</p>
+            
+                        <p>Với mục tiêu thúc đẩy nghiên cứu khoa học và nâng cao chất lượng đào tạo, Trường Đại học Vũ trụ và Công nghệ đã không ngừng mở rộng hợp tác với các tổ chức và viện nghiên cứu quốc tế. 
+                        Những bước tiến này hứa hẹn sẽ tạo ra những đột phá mới trong công nghệ vũ trụ, nhưng cũng đặt ra nhiều thách thức lớn.</p>
+            
+                        <h2>Đột Phá Trong Nghiên Cứu Khoa Học</h2>
+                        <ul class="noList">
+                            <li><strong>Hợp tác quốc tế:</strong>
+                                <ul class="noList plusList">
+                                    <li>Mở rộng hợp tác với NASA, ESA, và các cơ quan vũ trụ khác nhằm cập nhật những công nghệ tiên tiến và xu hướng mới nhất trong nghiên cứu vũ trụ.</li>
+                                    <li>Tham gia vào các dự án nghiên cứu chung với các đại học và viện nghiên cứu hàng đầu thế giới, tạo điều kiện cho sinh viên và giảng viên trải nghiệm thực tế và nâng cao kỹ năng.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Phát triển cơ sở hạ tầng nghiên cứu:</strong>
+                                <ul class="noList plusList">
+                                    <li>Đầu tư vào cơ sở vật chất hiện đại, bao gồm các phòng thí nghiệm, trung tâm nghiên cứu, và trang thiết bị tiên tiến phục vụ cho các dự án nghiên cứu công nghệ vũ trụ.</li>
+                                    <li>Thúc đẩy các chương trình hợp tác công tư để tăng cường nguồn lực tài chính và kỹ thuật cho nghiên cứu.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Thách thức đối mặt:</strong>
+                                <ul class="noList plusList">
+                                    <li>Đảm bảo tính bền vững trong hợp tác quốc tế và giữ chân các chuyên gia hàng đầu trong môi trường nghiên cứu cạnh tranh toàn cầu.</li>
+                                    <li>Giải quyết các vấn đề về tài chính và nguồn lực để hỗ trợ các dự án nghiên cứu dài hạn.</li>
+                                </ul>
+                            </li>
+                        </ul>
+            
+                        <h2>Giải Pháp Đề Xuất</h2>
+                        <p>Trường Đại học Vũ trụ và Công nghệ đang tích cực triển khai các giải pháp như tăng cường đầu tư vào cơ sở hạ tầng, mở rộng hợp tác với doanh nghiệp, và nâng cao chất lượng đào tạo để đối mặt với các thách thức trên.</p>
+            
+                        <h2>Thông tin liên hệ:</h2>
+                        <ul class="noList plusList">
+                            <li>Số điện thoại: 0123-456-789</li>
+                            <li>Địa chỉ: Trường Đại học Vũ trụ và Công Nghệ, đường Khám Phá, quận Vũ Trụ, thành phố Không Gian</li>
+                        </ul>
+                        <p>Để biết thêm thông tin về các chương trình hợp tác và cơ hội nghiên cứu, vui lòng liên hệ với chúng tôi qua thông tin trên.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section id="suKien" class="newsSection">
+            <h1  class = "tieude">Sự kiện</h1>
+            <div class="newsItem">
+                <a class="newsContent" href = "sukien">
+                    <img src="img/sukien1.png" class="newsImg"/>
+                    <div class = "mota">
+                         <h3>Cuộc Thi Âm Nhạc “Star Melody” 2024: Sân Chơi Tài Năng Của Sinh Viên Đại Học Vũ Trụ</h3>
+                         <p> Cuộc thi âm nhạc “Star Melody” năm 2024 do Trường Đại học Vũ trụ và Công nghệ tổ chức đã thu hút sự quan tâm của đông đảo sinh viên. 
+                            Diễn ra vào tối 29/08/2024, cuộc thi có sự góp mặt của hơn 20 tiết mục đến từ các khoa và câu lạc bộ trong trường. 
+                            Với những màn trình diễn đầy màu sắc và sáng tạo, cuộc thi đã thực sự trở thành sân chơi tài năng cho các bạn trẻ đam mê âm nhạc.</p> 
+                    </div>
+                    <div class="fullArticle">
+                        <p><strong>Ngày diễn ra:</strong> 29/08/2024</p>
+                        <p><strong>Địa điểm:</strong> Trường Đại học Vũ trụ và Công nghệ</p>
+                        
+                        <p>Cuộc thi âm nhạc “Star Melody” năm 2024 do Trường Đại học Vũ trụ và Công nghệ tổ chức đã thu hút sự quan tâm của đông đảo sinh viên. 
+                            Diễn ra vào tối 29/08/2024, cuộc thi có sự góp mặt của hơn 20 tiết mục đến từ các khoa và câu lạc bộ trong trường. 
+                            Với những màn trình diễn đầy màu sắc và sáng tạo, cuộc thi đã thực sự trở thành sân chơi tài năng cho các bạn trẻ đam mê âm nhạc.</p>
+                        
+                        <h2>Chi Tiết Cuộc Thi</h2>
+                        <ul class="noList">
+                            <li><strong>Đối tượng tham gia:</strong>
+                                <ul class="noList plusList">
+                                    <li>Tất cả sinh viên đang theo học tại Trường Đại học Vũ trụ và Công nghệ.</li>
+                                    <li>Các khoa và câu lạc bộ âm nhạc trong trường.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Thể loại tiết mục:</strong>
+                                <ul class="noList plusList">
+                                    <li>Nhạc pop, rock, cổ điển, và dân gian.</li>
+                                    <li>Đơn ca, nhóm ca, và biểu diễn nhạc cụ.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Giải thưởng:</strong>
+                                <ul class="noList plusList">
+                                    <li>Giải Nhất, Giải Nhì, và Giải Ba cho các tiết mục xuất sắc nhất.</li>
+                                    <li>Giải “Tiết Mục Đặc Sắc Nhất” và “Tiết Mục Được Yêu Thích Nhất” theo bình chọn của khán giả.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        
+                        <h2>Diễn Ra Sự Kiện</h2>
+                        <p>Cuộc thi âm nhạc “Star Melody” không chỉ là một sân chơi để sinh viên thể hiện tài năng mà còn là cơ hội để các bạn trẻ giao lưu, học hỏi và tạo nên những kỷ niệm đáng nhớ. Các tiết mục sẽ được đánh giá bởi ban giám khảo gồm các chuyên gia âm nhạc và giảng viên của trường.</p>
+                        
+                        <h2>Thông tin liên hệ:</h2>
+                        <ul class="noList plusList">
+                            <li>Số điện thoại: 0123-456-789</li>
+                            <li>Địa chỉ: Trường Đại học Vũ trụ và Công Nghệ, đường Khám Phá, quận Vũ Trụ, thành phố Không Gian</li>
+                        </ul>
+                        <p>Để biết thêm thông tin chi tiết về cuộc thi và cách đăng ký tham gia, vui lòng liên hệ với chúng tôi qua thông tin trên.</p>
+                    </div>
+                 </a>
+            </div>
+            <div class="newsItem">
+                <a class="newsContent" href = "sukien">
+                    <img src="img/sukien2.png" class="newsImg"/>
+                    <div class = "mota">
+                         <h3>Space Hackathon 2024: Khai Phá Giải Pháp Công Nghệ Cho Thám Hiểm Không Gian</h3>
+                         <p>Trường Đại học Vũ trụ và Công nghệ vừa tổ chức thành công cuộc thi lập trình Space Hackathon 2024 vào ngày 25/08/2024. 
+                            Cuộc thi có sự tham gia của 50 đội thi từ các trường đại học và cao đẳng trên cả nước, với chủ đề “Ứng dụng AI trong thám hiểm không gian”. </p> 
+                    </div>
+                    <div class="fullArticle">
+                        <p><strong>Ngày diễn ra:</strong> 20/08/2024</p>
+                        <p><strong>Địa điểm:</strong> Trường Đại học Vũ trụ và Công nghệ</p>
+                        
+                        <p>Trường Đại học Vũ trụ và Công nghệ vừa tổ chức thành công cuộc thi lập trình Space Hackathon 2024 vào ngày 25/08/2024. 
+                            Cuộc thi có sự tham gia của 50 đội thi từ các trường đại học và cao đẳng trên cả nước, với chủ đề “Ứng dụng AI trong thám hiểm không gian”. 
+                            Đây là cơ hội để các đội thi trình bày giải pháp công nghệ sáng tạo nhằm nâng cao khả năng thám hiểm không gian bằng trí tuệ nhân tạo (AI).</p>
+                        
+                        <h2>Chi Tiết Cuộc Thi</h2>
+                        <ul class="noList">
+                            <li><strong>Đối tượng tham gia:</strong>
+                                <ul class="noList plusList">
+                                    <li>Các đội thi đến từ các trường đại học và cao đẳng trên cả nước.</li>
+                                    <li>Các nhóm sinh viên và các nhà phát triển công nghệ.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Chủ đề cuộc thi:</strong>
+                                <ul class="noList plusList">
+                                    <li>Ứng dụng trí tuệ nhân tạo (AI) trong thám hiểm không gian.</li>
+                                    <li>Giải pháp sáng tạo cho các vấn đề thách thức trong việc thám hiểm và nghiên cứu không gian.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Giải thưởng:</strong>
+                                <ul class="noList plusList">
+                                    <li>Giải Nhất, Giải Nhì, và Giải Ba cho các giải pháp xuất sắc nhất.</li>
+                                    <li>Giải “Sáng Tạo Nhất” và “Ứng Dụng Thực Tiễn Nhất” theo đánh giá của ban giám khảo.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        
+                        <h2>Diễn Ra Sự Kiện</h2>
+                        <p>Space Hackathon 2024 không chỉ là một sân chơi để các đội thi thể hiện sự sáng tạo mà còn là một cơ hội để các nhà nghiên cứu và kỹ sư trẻ tuổi trình bày những ý tưởng đột phá trong lĩnh vực công nghệ không gian. Các giải pháp được đề xuất sẽ góp phần vào việc cải thiện và mở rộng khả năng thám hiểm không gian trong tương lai.</p>
+                        
+                        <h2>Thông tin liên hệ:</h2>
+                        <ul class="noList plusList">
+                            <li>Số điện thoại: 0123-456-789</li>
+                            <li>Địa chỉ: Trường Đại học Vũ trụ và Công Nghệ, đường Khám Phá, quận Vũ Trụ, thành phố Không Gian</li>
+                        </ul>
+                        <p>Để biết thêm thông tin chi tiết về cuộc thi và kết quả, vui lòng liên hệ với chúng tôi qua thông tin trên.</p>
+                    </div>
+                 </a>
+            </div>
+        </section>
+        <section id="fullArticle" class="hide">
+            <div class = "baiBao">
+            <h1 id="articleTitle"></h1>
+            <img id="articleImg" src="" alt="Article Image"/>
+            <div id="articleText"></div>
+            <button id="closeArticle">Đóng</button>
+            </div>
+        </section>
+
+
+    </body>
+    <!-----------Footer---------------------------------------------->
+    <footer>
+        <section class="footer" id = "footer">
+            <div class="phanDau flex">
+                <div id="logoTruongFooter">
+                    <a href="https://thao225.github.io/SAT_TrangChu/"> <img src="img/logoTruongW.png" alt="" id="truongFooter"></a>
+                </div>
+                <div class="iconLienHe">
+                    <ul>
+                    <li><a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="https://x.com/?lang=vi"><i class="fab fa-twitter-square"></i></a></li>
+                    <li><a href="https://www.messenger.com/?locale=vi_VN"><i class="fab fa-facebook-messenger"></i></a></li>
+                    <li><a href="https://web.facebook.com/?locale=vi_VN&_rdc=1&_rdr"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="phanGiua flex">
+                <div class="noidungFooters">
+                    <div class="tieuDeNDF">Thông tin liên hệ</div>
+                    <nav class="thongTinNDFs">
+                        <ul class="thongtinNDF">
+                            <li class="noiDungFooter">
+                                <div class="tenNoiDungFooters flex">
+                                    <i class="fas fa-phone-square-alt"></i>
+                                    <div class="tenNoiDungFooter">Số điện thoại</div>
+                                </div>
+                                <div class="noiDungNhoFooter">01111111111</div>
+                            </li>
+                            <li class="noiDungFooter">
+                                <div class="tenNoiDungFooters flex">
+                                    <i class="fas fa-envelope"></i>
+                                    <div class="tenNoiDungFooter">Email</div>
+                                </div>
+                                <div class="noiDungNhoFooter">
+                                    <a href="mailto:tuyensinhsat@sat.edu.vn?">tuyensinh@sat.edu.vn</a>
+                                </div>
+                            </li>
+                            <li class="noiDungFooter">
+                                <div class="tenNoiDungFooters flex">
+                                    <i class="fab fa-facebook"></i>
+                                    <div class="tenNoiDungFooter">Fagepage Tuyển sinh</div>
+                                </div>
+                                <div class="noiDungNhoFooter">
+                                    <a  href="https://www.facebook.com/tuyensinhsat/">https://www.facebook.com/tuyensinhsat/</a>
+                                </div>
+                            </li>
+                            <li class="noiDungFooter">
+                                <div class="tenNoiDungFooters flex">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <div class="tenNoiDungFooter">Địa chỉ</div>
+                                </div>
+                                <div class="noiDungNhoFooter">Cơ sở chính - Quận 1, TP.HCM</div>
+                            </li>
+                            <li class="noiDungFooter">
+                                <div class="tenNoiDungFooters flex">
+                                    <i class="fas fa-clock"></i>
+                                    <div class="tenNoiDungFooter">Thời gian làm việc</div>
+                                </div>
+                                <div class="noiDungNhoFooter">Thứ 2 đến thứ 6 (8h đến 17h)</div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="noidungFooters">
+                    <div class="tieuDeNDF">Cơ Sở Học tập</div>
+                    <nav class="thongTinNDFs">
+                        <ul class="thongtinNDF">
+                            <li class="noiDungFooter">
+                                <div class="tenNoiDungFooters flex">
+                                    <i class="fas fa-school"></i>
+                                    <div class="tenNoiDungFooter">Cơ sở 1</div>
+                                </div>
+                                <div class="noiDungNhoFooter">Thành phố Hồ Chí Minh</div>
+                            </li>
+                            <li class="noiDungFooter">
+                                <div class="tenNoiDungFooters flex">
+                                    <i class="fas fa-school"></i>
+                                    <div class="tenNoiDungFooter">Cơ sở 2</div>
+                                </div>
+                                <div class="noiDungNhoFooter">Thành phố Huế</div>
+                            </li>
+                            <li class="noiDungFooter">
+                                <div class="tenNoiDungFooters flex">
+                                    <i class="fas fa-school"></i>
+                                    <div class="tenNoiDungFooter">Cơ sở 3</div>
+                                </div>
+                                <div class="noiDungNhoFooter">Thành phố Hà Nội</div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="noidungFooters">
+                    <div class="tieuDeNDF">Về chúng tôi</div>
+                    <nav class="thongTinNDFs">
+                        <ul class="thongtinNDF veChungToi">
+                            <li><a href="https://thao225.github.io/SAT_TrangChu/"><i class="fa-solid fa-house"></i>Trang chủ</a></li>
+                            <li><a href="#"><i class="fas fa-info-circle"></i>Thông tin</a></li>
+                            <li><a href="#"><i class="fa-solid fa-star"></i>Giới thiệu</a></li>
+                            <li><a href="#"><i class="fa-solid fa-newspaper"></i>Tin tức</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="phanCuoi">
+                <span>Copyright &copy 2024 Đại Học Vũ Trụ Và Công Nghệ</span>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,170 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/* <----------THANH MENU START------------------------> */
+.mucLucs{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.logoTruong{
+    padding-left: 3rem;
+    margin: 5px auto;
+    width : 40%;
+}
+#logoTruong{
+    width: 80%;
+}
+nav.mucLucs{
+    width : 100%;
+    margin : 0;
+}
+ul.mucLucs {
+    justify-content: center;
+    align-content: center;
+    font-size: 1rem;
+}
+.mucLucs>li>a{
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+    color: #321d5e;
+    font-weight: bold;
+    margin : 6px auto;
+}
+ul.mucLucs>li>a:hover{
+    color: #b9a2d8;
+}
+/* ------SUBMENU----- */
+ul.mucLuc{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    background-color: white;
+    display: none;
+    position: absolute;
+    border-radius:0 0 5% 5%;
+}
+ul.mucLuc>li>a{
+    text-decoration: none;
+    color: #321d5e;
+}
+ul.mucLuc>li>a:hover{
+    color: #b9a2d8;
+}
+.sub:hover .mucLuc{
+    display: block ;
+}
+.mucLuc>li:first-child{
+    margin-top: 1.5rem;
+}
+.mucLuc>li{
+    margin: 0 1.5rem 1.5rem 1.5rem;
+    margin-left: 1.5rem;
+}
+#closeMenu {
+    position : absolute;
+    right : 1rem;
+    bottom : 5px;
+    background-color: var(--tim);
+    display : none;
+    border : 0.5px solid gray;
+    font-weight: bold;
+    color : white;
+}
+
+/* <----------FOOTER START------------------------> */
+footer{
+    margin: 0;
+    padding-top: 2rem;
+    color: white;
+    width: 100%;
+    background-color: rgb(31 32 59);
+}
+.footer{
+    width: 80%;
+    margin: 0 auto;
+}
+footer ul{
+    list-style-type: none;
+}
+.iconLienHe>ul>li{
+    margin: 0 0.5rem;
+    font-size: 25px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+.phanDau{
+    width: 100%;
+    margin: 2rem 0;
+}
+.logoTruongFooter{
+    margin-left: 0;
+}
+#truongFooter{
+    width: 90%;
+}
+.iconLienHe{
+    margin-left: auto;
+}
+.iconLienHe>ul{
+    display: flex;
+}
+.phanGiua{
+    width: 100%;
+    margin: 1.5rem 0;
+}
+.thongtinNDF{
+    padding-left: 0;
+}
+.thongtinNDF>li{
+    padding: 7px 0;
+}
+.thongtinNDF>li>a>i{
+    padding-right: 10px;
+    padding-top : 5px;
+}
+.noidungFooters:first-child{
+    width: 45%;
+}
+.noidungFooters:nth-child(2){
+    width: 40%;
+}
+.tieuDeNDF{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #e69bd3;
+}
+.noiDungFooter {
+    flex-direction: row !important; 
+    margin: 10px 5px; 
+    gap : 10px;
+}
+.tenNoiDungFooters {
+    padding-top  : 4.8px;
+    align-items: center;
+}
+.tenNoiDungFooters i {
+    padding-top : 12px;
+}
+.tenNoiDungFooter{
+    padding-top : 12px;
+    margin-left: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.noiDungNhoFooter, .noiDungNhoFooter a{
+    font-size: 1rem;
+    padding : 0;
+}
+.phanCuoi>span{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+}

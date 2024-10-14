@@ -1,0 +1,320 @@
+* {
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --tim : #321d5e;
+    --tieudephu : #52407b;
+}
+.flex {
+    display : flex;
+}
+a {
+    text-decoration: none;
+}
+.noList {
+    list-style-type : none;
+}
+.hide {
+    display : none !important;
+}
+.show {
+    display : block !important;
+}
+.undersub {
+    scroll-margin-top: 200px;
+}
+.center {
+    align-items: center;
+    justify-content: center;
+}
+#gotoTop {
+    right : 30px;
+    bottom : 50px;
+    position : fixed;
+    width : 50px;
+    height : 50px;
+    text-align: center;
+    background-color: var(--tieudephu);
+    color : white;
+    font-size: 30px;
+    font-weight: 800;
+    z-index : 999;
+    padding : 8px;
+    cursor : pointer;
+}
+.menuDt {
+    display : none;
+}
+/* body {
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -10;
+    color : white;
+} */
+ body {
+    background-image: url(img/sky.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -100;
+    /* opacity: 0.5; */
+    color : white;
+}
+.sticky {
+    position: sticky;
+    top : 0;
+    z-index: 999;
+}
+
+/*---------- NEWS -----------------------------------------------------------*/
+section {
+    width : 100%;
+    padding : 0;
+    z-index :10;
+    margin-bottom: 4rem;
+    padding-bottom: 2rem;
+}
+h1.tieude{
+    width : 60%;
+    margin : 0 auto;
+    font-size: 1.8rem;
+    display : block;
+    padding : 50px 20px 20px;
+    border-bottom: 2px solid rgba(244, 235, 235, 0.401);
+}
+/* #tinNoiBat, #baoChi {
+    background : linear-gradient(to bottom, #321d5ea1, rgba(0, 0, 0, 0.743));
+    width : 100%;
+    margin : 0 auto;
+}
+#thongBao, #suKien {
+    background : linear-gradient(to bottom, rgba(0, 0, 0, 0.743), #321d5ea1);
+    width : 100%;
+    margin : 0 auto;
+} */
+#tinNoiBat, #baoChi, #thongBao, #suKien {
+    width : 100%;
+    margin : 0 auto;
+
+}
+.newsItem {
+    background-color: white;
+    border-radius: 1rem;
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 1000px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.newsItem:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.newsContent {
+    gap: 1.5rem;
+    text-decoration: none;
+    overflow: hidden;
+    padding : 0.8rem;
+}
+.newsContent .mota {
+    flex: 1; 
+}
+.newsContent .mota:hover {
+    text-decoration: underline; 
+}
+.newsImg {
+    width: 400px;
+    height: 250px;
+    border-radius: 1rem;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    float : left;
+    padding-right: 10px;
+}
+.newsImg:hover {
+    transform: scale(1.02);
+}
+.mota {
+    flex: 1;
+    padding: 0.5rem;
+}
+.newsItem h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+.newsItem p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    margin: 0.5rem 0;
+}
+
+/*---------- TIN NOI BAT -----------------------------------------------------------*/
+.gallery {
+    width: 100%;
+    max-width: 700px;
+    height : auto;
+    margin : 0 auto;
+    padding : 2rem 0;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+.listImg {
+    transition : transform 0.6s ease-in-out;
+}
+.listImg .image{
+    width : 700px;
+    height : 500px;
+}
+.listImg img {
+    width : 700px;
+    height : 400px;
+}
+.imgText {
+    font-size : 1rem;
+    font-weight: bold;
+    padding : 15px;
+    color : white;
+}
+.btn {
+    font-size : 2rem;
+    padding : 5px;
+    color: #ffffff66;
+    cursor : pointer;
+    position: absolute;
+    top : 40%;
+}
+.btn > i:hover{
+    transform: scale(1.2);
+    color: #ffffff;
+}
+.prev {
+    left : 1rem;
+} 
+.next {
+    right : 1rem;
+}
+
+/*---------- FULL ARTICLE ------------------------*/
+.fullArticle {
+    display: none; 
+}
+.fullArticle a {
+    color : rgb(97, 92, 92);
+}
+#fullArticle {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 122, 122, 0.997); 
+    color: #ffffff;
+    overflow-y: auto;
+    z-index: 1000; 
+    padding: 2rem;
+    box-sizing: border-box;
+    display: none; 
+}
+.baiBao {
+    width : 80%;
+    background-color: rgb(238, 232, 223);
+    color : white;
+    margin : 0 auto;
+    padding : 2rem;
+    box-sizing: border-box;
+}
+#articleTitle {
+    display : block;
+    text-align: center;
+    margin-top : 2rem;
+}
+#fullArticle h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color : rgb(158, 42, 42);
+    width : 70%;
+    margin  : 0 auto 1rem;
+    text-shadow: 2px 2px 2px #88818a;
+}
+.plusList li::before {
+    content: "+"; 
+    margin-right: 10px; 
+    color: var(--tim);
+}
+.plusList li {
+    text-indent : 20px;
+}
+.plusList ul {
+    list-style-type:none ;
+}
+#fullArticle img {
+    width: 50%;
+    height: auto;
+    margin : 0 auto;
+    display: block;
+    margin-bottom: 1rem;
+} 
+#articleText {
+    font-size: 1rem;
+    color: var(--tim);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+#articleText > h2 {
+    text-indent: 2.5rem;
+    color :rgb(154, 48, 48)
+} 
+#closeArticle {
+    background-color: #0a1f36;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+    position: absolute; 
+    top: 1rem;
+    right: 1rem;
+}
+#closeArticle:hover {
+    background-color: #0056b3;
+}
+/*---------------TIEU DE--------------------------*/
+.animation {
+    position : relative;
+    width : 100%;
+    height : 100vh;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    margin : 0;
+    overflow: hidden;
+}
+#bg {
+    height : 110vh;
+}
+.animation img {
+    position: absolute;
+    width : 100%;
+}
+#text {
+    position : relative;
+    color : white;
+    z-index: 1;
+    font-size : 3rem;
+}
+#moon {
+    top : 20%;
+}
+
+
